@@ -1,5 +1,5 @@
 class Crestore < Formula
-  desc "Snapshot running Claude Code sessions and restore them in Ghostty, two per window"
+  desc "Snapshot running Claude Code sessions and restore them in Ghostty"
   homepage "https://github.com/akgandlur/crestore"
   url "https://github.com/akgandlur/crestore/archive/refs/tags/v0.1.1.tar.gz"
   sha256 "3f604ff76646d1298d491359ab43a1198ab67b87b4e20f9071d17c28b1575a4e"
