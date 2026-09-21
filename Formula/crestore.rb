@@ -1,8 +1,8 @@
 class Crestore < Formula
   desc "Snapshot running Claude Code sessions and restore them in Ghostty"
   homepage "https://github.com/akgandlur/crestore"
-  url "https://github.com/akgandlur/crestore/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "d44cd9fabee15d3165c464cd2cafdeaca9dc932b66ecb561ca392080ca4745ee"
+  url "https://github.com/akgandlur/crestore/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "c84d755323923d54938febf36d989f88ddfe2281aacf856078f424ced080331d"
   license "MIT"
 
   depends_on "jq"
