@@ -14,6 +14,9 @@ class Crestore < Formula
 
   def caveats
     <<~EOS
+      Homebrew 7+ only loads third-party taps you have trusted; to install or upgrade on another
+      machine, run this once first:
+        brew trust akgandlur/tap
       New Ghostty panes pick up restored sessions through a zsh hook. Install it once:
         crestore install
       Restoring sends keystrokes to Ghostty, so grant Ghostty Accessibility access in
